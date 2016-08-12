@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Exit">
+        <CheckBoxPreference
+            android:key="pref_key_exit_bluetooth"
+            android:defaultValue="false"
+            android:title="Disable Bluetooth on Exit"
+            android:summary="If checked, Bluetooth will be disabled when exiting the app, otherwise, Bluetooth will remain enabled." />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
